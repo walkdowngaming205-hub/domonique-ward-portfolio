@@ -11,11 +11,27 @@ import "./App.css";
 function App() {
   return (
     <div className="portfolio">
+      <nav className="navbar">
+  <h3>DW</h3>
+
+  <div className="navLinks">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
       <section className="hero">
-        <p className="heroTag">Full Stack Developer Portfolio</p>
+        <p className="heroTag">Developer Portfolio</p>
+
+        <img
+          src="/images/headshot.jpg"
+          alt="Domonique Ward"
+          className="profileImage"
+        />
 
         <h1>DOMONIQUE WARD</h1>
-        <h2>Junior Software Engineer</h2>
+        <h2>Software Engineer</h2>
 
         <p>
           Building modern web applications with React, Node.js, Express,
@@ -26,6 +42,12 @@ function App() {
           <a href="#projects">View Projects</a>
           <a href="#contact">Contact Me</a>
         </div>
+        <a href="/resume.pdf" 
+           target="_blank" 
+           rel="noreferrer"
+           className="resumeBtn">
+            Download Resume
+        </a>
       </section>
 
       <section className="about">
@@ -61,6 +83,22 @@ function App() {
             <h3>Database</h3>
             <p>MongoDB, Mongoose, MongoDB Compass</p>
           </div>
+        </div>
+      </section>
+
+      <section className="experience">
+        <h2>Experience</h2>
+
+        <div className="experienceCard">
+          <h3>Freelance Web Developer</h3>
+          <span>2025 - Present</span>
+
+          <p>
+            Designed and developed responsive websites,
+            business landing pages, and full-stack web
+            applications using React, JavaScript,
+            Node.js, Express, and MongoDB.
+          </p>
         </div>
       </section>
 
@@ -177,6 +215,12 @@ function App() {
           </div>
         </div>
       </section>
+      <section className="summary">
+        <h2>Summary</h2>
+        <p>
+          Full Stack Developer specializing in React, JavaScript, Node.js, Express, and MongoDB. Experienced building responsive business websites, REST APIs, dashboards, and database-driven applications. Currently completing the Nucamp Software Engineering Program while building production-ready projects.
+        </p>
+      </section>
 
       <section className="certifications">
         <h2>Certifications</h2>
@@ -213,6 +257,10 @@ function App() {
           </a>
         </div>
       </section>
+
+      <footer className="footer">
+        <p>© 2026 Domonique Ward</p>
+      </footer>
     </div>
   );
 }

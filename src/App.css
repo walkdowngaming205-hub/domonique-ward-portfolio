@@ -227,3 +227,18 @@ section h2 {
   margin-bottom: 25px;
   line-height: 1.8;
 }
+.resumeBtn {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 14px 28px;
+  border-radius: 10px;
+  background: transparent;
+  border: 2px solid #00aaff;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.resumeBtn:hover {
+  background: #00aaff;
+}

@@ -179,3 +179,51 @@ section h2 {
     flex-direction: column;
   }
 }
+.heroTag {
+  color: #00aaff;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.projectTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.projectTags span {
+  background: rgba(0, 170, 255, 0.12);
+  color: #00aaff;
+  padding: 7px 10px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+}
+
+.projectLinks {
+  display: flex;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.projectLinks a {
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  background: #00aaff;
+  color: #fff;
+  font-weight: 700;
+}
+
+.projectLinks a:last-child {
+  background: transparent;
+  border: 1px solid #00aaff;
+}
+
+.contact p {
+  color: #b9b9b9;
+  margin-bottom: 25px;
+  line-height: 1.8;
+}

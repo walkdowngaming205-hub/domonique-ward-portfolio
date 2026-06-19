@@ -12,15 +12,17 @@ function App() {
   return (
     <div className="portfolio">
       <nav className="navbar">
-  <h3>DW</h3>
+        <h3>DOMONIQUE WARD</h3>
 
-  <div className="navLinks">
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </div>
-</nav>
+        <div className="navLinks">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+
       <section className="hero">
         <p className="heroTag">Developer Portfolio</p>
 
@@ -34,35 +36,38 @@ function App() {
         <h2>Software Engineer</h2>
 
         <p>
-          Building modern web applications with React, Node.js, Express,
-          MongoDB, JavaScript, and responsive design.
+          Full Stack Developer specializing in React, JavaScript, Node.js,
+          Express, and MongoDB. Experienced building responsive business
+          websites, REST APIs, dashboards, and database-driven applications.
         </p>
 
         <div className="heroButtons">
           <a href="#projects">View Projects</a>
           <a href="#contact">Contact Me</a>
-        </div>
-        <a href="/resume.pdf" 
-           target="_blank" 
-           rel="noreferrer"
-           className="resumeBtn">
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noreferrer"
+            className="resumeBtn"
+          >
             Download Resume
-        </a>
+          </a>
+        </div>
       </section>
 
-      <section className="about">
+      <section id="about" className="about">
         <h2>About Me</h2>
 
         <p>
           I am a software engineering student focused on full-stack web
           development. I enjoy building real-world applications, solving
-          technical problems, and creating clean user experiences. My projects
-          include business websites, dashboards, REST APIs, and database-driven
-          applications.
+          technical problems, and creating clean user experiences. I am
+          currently completing the Nucamp Software Engineering Program while
+          building production-ready projects.
         </p>
       </section>
 
-      <section className="skills">
+      <section id="skills" className="skills">
         <h2>Skills</h2>
 
         <div className="skillGrid">
@@ -86,7 +91,7 @@ function App() {
         </div>
       </section>
 
-      <section className="experience">
+      <section id="experience" className="experience">
         <h2>Experience</h2>
 
         <div className="experienceCard">
@@ -94,10 +99,9 @@ function App() {
           <span>2025 - Present</span>
 
           <p>
-            Designed and developed responsive websites,
-            business landing pages, and full-stack web
-            applications using React, JavaScript,
-            Node.js, Express, and MongoDB.
+            Designed and developed responsive websites, business landing pages,
+            and full-stack web applications using React, JavaScript, Node.js,
+            Express, and MongoDB.
           </p>
         </div>
       </section>
@@ -152,10 +156,6 @@ function App() {
             </div>
 
             <div className="projectLinks">
-              <a href="#" target="_blank" rel="noreferrer">
-                Live Demo
-              </a>
-
               <a
                 href="https://github.com/walkdowngaming205-hub/artist-hub"
                 target="_blank"
@@ -178,48 +178,22 @@ function App() {
               <span>Express</span>
               <span>MongoDB</span>
             </div>
-
-            <div className="projectLinks">
-              <a href="#" target="_blank" rel="noreferrer">
-                API Repo
-              </a>
-
-              <a href="#" target="_blank" rel="noreferrer">
-                GitHub
-              </a>
-            </div>
           </div>
 
           <div className="projectCard">
-            <h3>WalkDown Dashboard</h3>
+            <h3>Portfolio Website</h3>
             <p>
-              Custom React dashboard project focused on UI design, components,
-              state, and responsive frontend layout.
+              Personal developer portfolio built with React, responsive design,
+              reusable sections, and clean UI styling.
             </p>
 
             <div className="projectTags">
               <span>React</span>
-              <span>Tailwind</span>
-              <span>UI</span>
-            </div>
-
-            <div className="projectLinks">
-              <a href="#" target="_blank" rel="noreferrer">
-                Live Demo
-              </a>
-
-              <a href="#" target="_blank" rel="noreferrer">
-                GitHub
-              </a>
+              <span>CSS</span>
+              <span>Vite</span>
             </div>
           </div>
         </div>
-      </section>
-      <section className="summary">
-        <h2>Summary</h2>
-        <p>
-          Full Stack Developer specializing in React, JavaScript, Node.js, Express, and MongoDB. Experienced building responsive business websites, REST APIs, dashboards, and database-driven applications. Currently completing the Nucamp Software Engineering Program while building production-ready projects.
-        </p>
       </section>
 
       <section className="certifications">
@@ -238,9 +212,12 @@ function App() {
         <h2>Contact</h2>
 
         <p>
-          I am open to Junior Software Engineer, Front-End Developer, and
-          Full-Stack Developer opportunities.
+          I am open to Software Engineer, Front-End Developer, and Full-Stack
+          Developer opportunities.
         </p>
+
+        <p>Email: walkdowngaming@icloud.com</p>
+        <p>Location: Dallas, Texas</p>
 
         <div className="socials">
           <a
@@ -252,7 +229,7 @@ function App() {
             <FaGithub />
           </a>
 
-          <a href="#" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/domonique-ward-3b6069403/" aria-label="LinkedIn">
             <FaLinkedin />
           </a>
         </div>
